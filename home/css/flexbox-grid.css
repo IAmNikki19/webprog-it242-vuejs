@@ -14,7 +14,7 @@
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #7e6a94;
     padding: 20px;
   }
   
@@ -25,7 +25,7 @@ header {
   
   .main-content {
     flex: 2;
-    background-color: #fff;
+    background-color: #7e6a94;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
