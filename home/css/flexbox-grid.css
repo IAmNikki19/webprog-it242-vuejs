@@ -1,8 +1,17 @@
 .container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7e6a94;
+  padding: 10px;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
   
   header, footer {
     background-color: #7e6a94;
