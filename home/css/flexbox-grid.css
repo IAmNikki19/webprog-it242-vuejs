@@ -25,13 +25,13 @@ header {
   
   .main-content {
     flex: 2;
-    background-color: #7e6a94;
+    background-color: #ffffff;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
   }
   .main-content > div {
-    background-color: #ffffff;
+    background-color: #7e6a94;
     width: 350px;
     margin: 10px;
     text-align: center;
