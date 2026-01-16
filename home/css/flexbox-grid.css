@@ -38,6 +38,16 @@ header {
     line-height: 35px;
     font-size: 15px;
   }
+
+  .main-content div {
+  margin-top: 15px; /* Adds space above your purple boxes */
+  margin-bottom: 5px;
+}
+
+.main-content p {
+  margin-bottom: 20px; /* Adds space after the text before the next box */
+  line-height: 1.6;    /* Makes the paragraph text easier to read */
+}
   
   .sidebar {
     flex: 1;
