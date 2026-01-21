@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/personalprofile.css">
@@ -66,4 +64,3 @@
 </main>
 
 </body>
-</html>
