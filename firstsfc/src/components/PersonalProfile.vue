@@ -1,66 +1,69 @@
-<head>
-  <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/personalprofile.css">
-</head>
-<body>
-  <header> <h1>Nikki's Personal Profile Web Page </h1>  </header>
- <div class="container">
-        
-        <main>
-  <section class="main-content">
-    
-    <div class="section-group">
-      <h3>1 About Me:</h3>
-      <ul>
-        <li><strong>Name:</strong> Laeticia Nicole S. Delos Reyes</li>
-        <li><strong>Nickname:</strong> Nikki</li>
-      </ul>
-    </div>
+<template>
+  <div class="container">
+    <header>
+      <h1>Nikki's Personal Profile Web Page</h1>
+    </header>
 
-    <div class="section-group">
-      <h3>2 Education / Achievements</h3>
-      <p><strong>College:</strong> Asia Pacific College</p>
-    </div>
-
-    <div class="section-group">
-      <h3>3 Course</h3>
-      <p><strong>Course:</strong> Bachelor of Science in Information Technology (BSIT)</p>
-    </div>
-
-    <div class="section-group">
-      <h3>4 IT Experience</h3>
-      <p>
-        <strong>Programming:</strong> HTML, CSS, Python & Javascript<br>
-        <strong>Designing:</strong> Figma, MySQL Workbench<br>
-        <strong>Application Platform:</strong> Outsystems Service Studio, Flutter, Android Studio<br>
-        <strong>Online Gaming:</strong> Mobile
-      </p>
-    </div>
-
-    <div class="section-group">
-      <h3>5 Hobbies & Interests</h3>
-      <p>Theater Acting, Reading Books, Listening to Music, Watching Movies and TV Series</p>
-    </div>
-
-    <div class="section-group">
-      <h3>6 Goals In Life / Dream</h3>
-      <p>To become a successful programmer, To graduate with honors</p>
-    </div>
-
-    <div class="section-group">
-      <h3>7 Picture Gallery</h3>
-      <div class="container" style="display: flex; gap: 10px; flex-wrap: wrap;">
-        <div>
-          <img src="https://www.shutterstock.com/image-vector/cute-little-smart-girl-sitting-600nw-2296810981.jpg" alt="Girl reading a book" width="200" height="200" />
+    <main>
+      <section class="main-content">
+        <div class="section-group">
+          <h3>1 About Me:</h3>
+          <ul>
+            <li><strong>Name:</strong> Laeticia Nicole S. Delos Reyes</li>
+            <li><strong>Nickname:</strong> Nikki</li>
+          </ul>
         </div>
-        <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXgAB7z-IMbIZQTn559hJezh2d85thunDOg&s" alt="BTS" width="200" height="200" />
-        </div>
-        <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYz7l1Tt9edpMGjr37xgr5p2rFN0NK00Xqmw&s" alt="Descendants" width="200" height="200" />
-        </div>
-      </div> </div> </section> <aside class="sidebar">
-    </aside>
-</main>
 
-</body>
+        <div class="section-group">
+          <h3>2 Education / Achievements</h3>
+          <p><strong>College:</strong> Asia Pacific College</p>
+        </div>
+
+        <div class="section-group">
+          <h3>3 Course</h3>
+          <p><strong>Course:</strong> Bachelor of Science in Information Technology (BSIT)</p>
+        </div>
+
+        <div class="section-group">
+          <h3>4 IT Experience</h3>
+          <p>
+            <strong>Programming:</strong> HTML, CSS, Python & Javascript<br>
+            <strong>Designing:</strong> Figma, MySQL Workbench<br>
+            <strong>Application Platform:</strong> Outsystems Service Studio, Android Studio<br>
+            <strong>Online Gaming:</strong> Mobile
+          </p>
+        </div>
+
+        <div class="section-group">
+          <h3>5 Hobbies & Interests</h3>
+          <p>Theater Acting, Reading Books, Listening to Music, Watching Movies and TV Series</p>
+        </div>
+
+        <div class="section-group">
+          <h3>6 Goals In Life / Dream</h3>
+          <p>To become a successful programmer and to graduate with honors</p>
+        </div>
+
+        <div class="section-group">
+          <h3>7 Picture Gallery</h3>
+          <div class="gallery-container">
+            <div><img src="https://www.shutterstock.com/image-vector/cute-little-smart-girl-sitting-600nw-2296810981.jpg" alt="Girl reading" /></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXgAB7z-IMbIZQTn559hJezh2d85thunDOg&s" alt="BTS" /></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYz7l1Tt9edpMGjr37xgr5p2rFN0NK00Xqmw&s" alt="Descendants" /></div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        </aside>
+    </main>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'PersonalProfile'
+}
+</script>
+
+<style scoped src="./css/personalprofile.css"></style>
